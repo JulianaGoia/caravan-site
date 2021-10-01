@@ -1,0 +1,9 @@
+body {
+    height: 3000px;
+    padding-top: 90px; /*altura igual ao menu que esta fixo, para o conteudo aparecer logo abaixo*/
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0,.05),
+                0 4px 8px 0 rgba(0, 0, 0,.05);
+}
