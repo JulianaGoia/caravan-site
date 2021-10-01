@@ -1,9 +1,25 @@
 body {
-    height: 3000px;
     padding-top: 90px; /*altura igual ao menu que esta fixo, para o conteudo aparecer logo abaixo*/
 }
 
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0,.05),
                 0 4px 8px 0 rgba(0, 0, 0,.05);
+}
+
+#home-quote {
+    background: url('./assets/bg-quote.jpg') center center;
+    background-size: cover; /* a img cobre a area inteira */
+}
+
+@media screen and (max-width: 767px) { /*referencia da media do bootstrap p-md-5*/
+    #home-quote .display-4 {
+        font-size: 2.5rem;
+    }
+    body {
+        padding-top: 0px;
+    }
+    .fixed-top {
+        position: relative;
+    }
 }
